@@ -59,18 +59,22 @@ h1 {
     display: flex;
     margin-bottom: 8vh;
     background-image: url(./assets/Detalhes.png);
-    background-repeat: repeat;
+    background-repeat: round;
+}
+
+.cards img{
+    height: 10vm;
 }
 
 .card {
     width: 220px;
     height: 210px;
+    align-items: center;
     margin-left: 32px;
     background-color: #142c4b;
     border-radius: 30px;
     margin: 0 7rem 0 7rem;
     transition: translate 0.5s;
-
 }
 
 .card:hover {
@@ -82,11 +86,11 @@ a {
 }
 
 
-.cardTitle{
+.cardTitle {
     color: #ffffff;
 }
 
-#cardTitle{
+#cardTitle {
     color: #ffffff;
     font-size: 60px;
 }
