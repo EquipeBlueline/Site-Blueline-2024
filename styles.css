@@ -58,6 +58,8 @@ h1 {
 .cards {
     display: flex;
     margin-bottom: 8vh;
+    background-image: url(./assets/Detalhes.png);
+    background-repeat: repeat;
 }
 
 .card {
