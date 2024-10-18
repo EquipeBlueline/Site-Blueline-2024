@@ -57,12 +57,12 @@ h1 {
 
 .cards {
     display: flex;
-    margin-bottom: 8vh;
+    bottom: 0px;
     background-image: url(./assets/Detalhes.png);
     background-repeat: round;
 }
 
-.cards img{
+.cards img {
     height: 10vm;
 }
 
