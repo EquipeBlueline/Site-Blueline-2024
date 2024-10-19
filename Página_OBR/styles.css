@@ -104,7 +104,7 @@ ul li:hover #dropdownContatos {
 }
 
 #dropdownContatos ul li {
-    width: 10px;
+    width: 100px;
     padding: 10px;
 }
 
