@@ -46,6 +46,21 @@ h1 {
     font-weight: 400;
 }
 
+p {
+    color: white;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+    padding: 50px 40px 50px 40px;
+    max-width: 90vw;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
 a {
     text-decoration: none;
 }
