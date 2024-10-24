@@ -1,6 +1,6 @@
 # Blueline
 
-Aqui está o site da equipe Blueline de robotica do Amilcare Mattei. Com o intuito de divulgação da equipe. 
+Este é o site oficial da Equipe Blueline, equipe de robótica da E.E Prof. Amilcare Mattei.
 
 ## Tecnologias usadas 
 
