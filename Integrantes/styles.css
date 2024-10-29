@@ -9,7 +9,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .container {
@@ -50,19 +51,29 @@ h2 {
     text-align: center;
     font-family: "Teko", sans-serif;
     font-optical-sizing: auto;
-    color: #0058bd;
+    color: #ffffff;
     font-weight: 300;
 }
 
-.ints {
-    width: 210px;
-    height: 240px;
+.content {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.ints {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     background-color: #142c4b;
     border-radius: 25px;
     transition: translate 0.5s;
+    margin: 0 5rem 0 5rem;
+    padding: 0 10px 0 10px;
 }
 
 .ints:hover {
@@ -82,12 +93,6 @@ p {
     font-size: 20px;
     padding: 50px 40px 50px 40px;
     max-width: 90vw;
-}
-
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 a {
